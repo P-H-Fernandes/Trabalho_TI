@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #01162b; 
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px; 
+    min-height: 100vh;
+    background-color: #01162b; 
+    padding: 20px 0;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.counter h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.counter p {
+    font-size: 18px;
+    color: #b0bec5;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+}
+
+.filter-button {
+    padding: 8px 12px;
+    background-color: #1e88e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+
+.filter-options select {
+    padding: 8px 12px;
+    background-color: #263238;
+    color: #ffffff;
+    border: 1px solid #455a64;
+    border-radius: 8px;
+}
+
+.problem-list {
+    flex: 1;
+    width: 100%;
+    padding: 15px;
+}
+
+.problem-item {
+    background-color: #1f3b5b;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.info h2 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 14px;
+    color: #cfd8dc;
+}
+
+.details {
+    text-align: right;
+}
+
+.details span {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.status {
+    padding: 6px 12px;
+    border: none;
+    background-color: #73ecb3;
+    color: #ffffff;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.status:hover {
+    background-color: #009f7e;
+}
